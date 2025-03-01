@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../brdytoken/brdytoken-github"
+		},
+		{
+			"name": "brdytoken.github.io",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
