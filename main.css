@@ -1,0 +1,115 @@
+:root {
+	--glass: #222e;
+	--green: #0f5;
+	--brightGreen: #0f9;
+	--gradient: linear-gradient(30deg, #0f5 0%, #0f9 100%);
+}
+
+body {
+	background: linear-gradient(210deg, #222 0%, #070707 100%); color: #fff;
+	font-family: "Poppins", sans-serif; font-weight: 400; line-height: 1.5;
+	font-size: 15px; text-align: center; margin: 0;
+
+	-webkit-tap-highlight-color: rgba(0,0,0,0); -webkit-touch-callout: none; touch-action: manipulation;
+
+	height: 100vh; /*To show BG in firefox*/
+}
+::-webkit-scrollbar {width: 3px;} ::-webkit-scrollbar-track {background: transparent;} ::-webkit-scrollbar-thumb {background: #fff2;} ::-webkit-scrollbar-thumb:hover {background: #fff2;}
+::selection {color: var(--green); background: #111;}
+
+p { 
+  margin-left: 1em;
+  font-size: 16px;
+  line-height: 24px;
+}
+a {
+	color: var(--green); text-decoration: none; transition: all 0.1s;
+}
+
+b {
+	font-size: 18px; color: #fff; font-weight: 700;
+}
+.title {
+	font-size: 30px; font-weight: 700; width: 100%; position: relative; text-align: center; display: inline-block; margin-bottom: 20px;
+}
+.bodyOuter > div > .title:first-of-type {
+	font-size: 50px; margin: 50px 0 5px 0;
+}
+
+.btn {
+	color: #fff !important; position: relative; float: left; margin-left: 10px; padding: 5px 12px; background-color: #fff1; border-radius: 8px 2px; font-weight: 600;
+}
+
+.bodyOuter {
+	position: fixed; top: 80px; bottom: 0; left: 0; right: 0; overflow: auto;
+}
+.bodyOuter > div {
+	position: relative; display: inline-block; width: 80%; max-width: 800px;
+}
+.card {
+	position: relative; display: block; margin: 0 auto; margin-top: 40px; padding: 30px 50px; background-color: var(--glass); border-radius: 20px 5px; text-align: left; width: calc(80% - 100px); overflow: hidden;
+}
+.hl {
+	position: relative; display: inline-block; width: 100%;
+}
+.container {
+  text-align: center;
+}
+#us-map{
+  display: inline-block;
+  position: relative;
+  top: 20;
+  left: 0;
+  width: calc(80%-100px);
+  height: 600;
+  margin: auto;
+}
+path:hover, circle:hover {
+  stroke: #002868 !important;
+  stroke-width:2px;
+  stroke-linejoin: round;
+  fill: #002868 !important;
+  cursor: pointer;
+}
+#path67 {
+  fill: none !important;
+  stroke: #A9A9A9 !important;
+  cursor: default;
+}
+#info-box {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  text-align: left;
+  background-color: var(--glass); 
+  border: 2px solid #BF0A30;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: arial;
+}
+
+#legend {
+  display: block;
+  position: relative;
+  top: 0px;
+  left: 400px;
+  z-index: 1;
+  height: 100%;
+  width: 33%;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+body {
+	background: linear-gradient(210deg, #222 0%, #070707 100%); 
+}
+
+body #main-menu {
+        background: #002868 65% !important ; 
+        color: #fff;
+	font-family: "Poppins", sans-serif; font-weight: 400; line-height: 1.5;
+	font-size: 15px; text-align: center; margin: 0;
+
+}
